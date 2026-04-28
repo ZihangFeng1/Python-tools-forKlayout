@@ -282,5 +282,5 @@ if __name__ == "__main__":
     gcoupler.shapes(cell)
 
     out_path = "d:/code/" + os.path.splitext(os.path.basename(__file__))[0] + "_test.gds"
-    layout.write(out_path)
-    print(f"GDS written to {out_path}")
+    layout.write("E:\PKU\Project\GCP.gds")
+    print(f"GDS written to E:\PKU\Project\GCP.gds")
